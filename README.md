@@ -1,0 +1,1 @@
+Publish mqtt data for testing

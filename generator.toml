@@ -1,0 +1,20 @@
+# delay between tag generators
+[scanner]
+  delay = 1000
+
+# MQTT broker settings - should be obvious
+[broker]
+  name = "testing123"
+  # host = "localhost"
+  port = 1883
+  # user = "jim"
+  # password = "jim"
+  
+
+# Settings for mqtt messages
+[mqtt]
+  tags = [
+    "mehm/jz1/lm1/motor1/vibration",
+    "mehm/jz1/lm1/motor1/temperature"
+  ]
+
